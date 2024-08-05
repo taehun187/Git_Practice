@@ -1,33 +1,34 @@
-# Git 실습
-Git 학습했던 내용들을 실제로 적용해 보았습니다. branch 생성, fast-forward merge, confilct merge, 3 way merge, remote branch와 local branch 충돌 해결 등의 문제를 직접해보았습니다. 마지막으로 team을 구성해 Collaborate를 진행해 각자 branch를 만들고 변경사항을 commit, push 후 팀장인 제가 remote에서 merge, local에서 merge를 진행했습니다.
+# Git 단위평가 항목
+### 조건
+* STS4 IDE를 사용한 Java project
+* 모든 local repository는 remote repository와 함께 운용됨
 
-# remote empty repo 생성
+## 평가 문제
+1. remote[GitHub] empty repo 생성
+![ex_screenshot](./resource/move1.gif)
 
-
-# git init & git push
-
-
-# git local branch 생성
-
-
-# fast-forward merge
+2. git init & git push
 
 
-# 3 way merge
+3. 별도의 git local branch 생성 -> remote repo 생성
 
 
-# confilct merge
+4. fast forward merge
 
 
-# remote branch 와 local branch 충돌 해결
+5. 3 way merge - conflict merge가 발생해야 함
 
 
-# local branch 삭제
+6. rebase - conflict merge가 발생해야 함
 
 
-# git 마지막 commit 메세지 수정
+7. remote branch[GitHub]와 local branch 충돌 해결
 
 
-# team-collaborate
+8. local branch 및 remote branch 삭제
 
 
+9. git undo[amend 옵션 사용]
+
+
+10. team - collaborate : 팀원마다 브랜치가 할당. 이후 main 브랜치로 Merge
