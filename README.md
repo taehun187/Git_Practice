@@ -5,6 +5,7 @@
 
 ## 평가 문제
 1. remote[GitHub] empty repo 생성
+#
 ![ex_screenshot](./resource/move1.gif)
 
 2. git init & git push
